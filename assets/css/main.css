@@ -461,12 +461,16 @@ body {
     body .page-home section nav ul {
       list-style-type: none;
       display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); }
+      grid-template-columns: repeat(auto-fit, minmax(100px, 1fr)); }
       body .page-home section nav ul li a {
         font-weight: bold;
         font-variant: small-caps; }
+        body .page-home section nav ul li a.active {
+          color: #ACD5C1;
+          border-bottom: 3px solid #ACD5C1; }
     body .page-home section article {
       display: grid;
-      grid-template-columns: 1fr 1fr; }
+      grid-template-columns: 1fr 1fr;
+      grid-gap: 16px; }
       body .page-home section article h3 {
         grid-column: 1/-1; }
