@@ -418,7 +418,7 @@ body {
   background-attachment: fixed; }
   body::before {
     content: '';
-    background-color: rgba(172, 213, 193, 0.67);
+    background-color: #ACD5C1;
     top: 0;
     left: 0;
     right: 0;
