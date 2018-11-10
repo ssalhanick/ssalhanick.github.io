@@ -460,8 +460,9 @@ body {
       font-weight: 500; }
     body .page-home section nav ul {
       list-style-type: none;
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(100px, 1fr)); }
+      display: flex;
+      justify-content: space-between;
+      flex-flow: row wrap; }
       body .page-home section nav ul li a {
         font-weight: bold;
         font-variant: small-caps; }
