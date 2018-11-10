@@ -466,7 +466,7 @@ body {
       padding: 0;
       list-style-type: none;
       display: flex;
-      justify-content: space-between;
+      justify-content: space-around;
       flex-flow: row wrap; }
       body .page-home section nav ul li a {
         font-weight: bold;
