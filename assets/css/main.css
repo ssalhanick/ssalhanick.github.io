@@ -502,3 +502,5 @@ body {
           line-height: 0.9; }
           body .page-home section article#travel ul h4 small {
             font-size: 13px; }
+      body .page-home section article#accomodations {
+        visibility: visible; }
