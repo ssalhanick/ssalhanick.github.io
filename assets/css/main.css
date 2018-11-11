@@ -445,10 +445,12 @@ body {
         font-family: "Cinzel Decorative", cursive;
         font-weight: 300;
         margin-bottom: 0;
-        letter-spacing: 0.25em; }
+        letter-spacing: 0.25em;
+        transition: all 0.3s ease-in-out; }
         body .page-home section .intro a h1 span {
           color: #FF7F50;
-          font-size: 125%; }
+          font-size: 125%;
+          transition: all 0.3s ease-in-out; }
       body .page-home section .intro a p:first-of-type {
         font-weight: 300;
         font-size: 2em;
