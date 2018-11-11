@@ -455,6 +455,10 @@ body {
         font-variant: small-caps;
         letter-spacing: 0.25em;
         margin-bottom: 0; }
+      body .page-home section .intro a:hover h1 {
+        color: #FF7F50; }
+        body .page-home section .intro a:hover h1 span {
+          color: black; }
     body .page-home section .intro h2 {
       margin-bottom: 0;
       font-weight: 300; }
