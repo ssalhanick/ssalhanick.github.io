@@ -681,3 +681,115 @@ body {
               border-bottom: 0; }
       body .page-home section nav.active .mobile-modal {
         color: #E1B5AB; } }
+
+@media (min-width: 786px) and (max-width: 1096px) {
+  body .page-home section:first-of-type {
+    margin-top: 0px; }
+  body .page-home section:last-of-type {
+    margin-bottom: 0px; }
+  body .page-home section .intro a h1 {
+    width: 80%;
+    margin: 0 auto;
+    line-height: 1.15; }
+  body .page-home section nav {
+    height: 0; }
+    body .page-home section nav .mobile-modal {
+      display: block;
+      min-width: 50px;
+      min-height: 50px;
+      position: fixed;
+      top: 5px;
+      right: 5px;
+      transform: rotate(90deg);
+      color: #ACD5C1;
+      font-size: 3em;
+      z-index: 999;
+      cursor: pointer; }
+    body .page-home section nav ul {
+      display: none; }
+    body .page-home section nav.active {
+      position: fixed;
+      background-color: #ACD5C1;
+      min-height: 100vh;
+      top: 0;
+      left: 0;
+      max-width: 42vw;
+      width: 100%;
+      z-index: 999; }
+      body .page-home section nav.active ul {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-end;
+        height: 100vh;
+        padding-right: 0.75em; }
+        body .page-home section nav.active ul li {
+          padding: 25px 0;
+          font-size: 1.55em; }
+          body .page-home section nav.active ul li:first-of-type {
+            padding-top: 0; }
+          body .page-home section nav.active ul li:last-of-type {
+            padding-bottom: 0; }
+          body .page-home section nav.active ul li a {
+            color: white; }
+            body .page-home section nav.active ul li a.active {
+              color: #E1B5AB;
+              border-bottom: 0; }
+      body .page-home section nav.active .mobile-modal {
+        color: #E1B5AB; } }
+
+@media (min-width: 417px) and (max-width: 785px) {
+  body .page-home section:first-of-type {
+    margin-top: 0px; }
+  body .page-home section:last-of-type {
+    margin-bottom: 0px; }
+  body .page-home section .intro a h1 {
+    width: 80%;
+    margin: 0 auto;
+    line-height: 1.15; }
+  body .page-home section nav {
+    height: 0; }
+    body .page-home section nav .mobile-modal {
+      display: block;
+      min-width: 50px;
+      min-height: 50px;
+      position: fixed;
+      top: 5px;
+      right: 5px;
+      transform: rotate(90deg);
+      color: #ACD5C1;
+      font-size: 3em;
+      z-index: 999;
+      cursor: pointer; }
+    body .page-home section nav ul {
+      display: none; }
+    body .page-home section nav.active {
+      position: fixed;
+      background-color: #ACD5C1;
+      min-height: 100vh;
+      top: 0;
+      left: 0;
+      max-width: 42vw;
+      width: 100%;
+      z-index: 999; }
+      body .page-home section nav.active ul {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-end;
+        height: 100vh;
+        padding-right: 0.75em; }
+        body .page-home section nav.active ul li {
+          padding: 25px 0;
+          font-size: 1.4em; }
+          body .page-home section nav.active ul li:first-of-type {
+            padding-top: 0; }
+          body .page-home section nav.active ul li:last-of-type {
+            padding-bottom: 0; }
+          body .page-home section nav.active ul li a {
+            color: white; }
+            body .page-home section nav.active ul li a.active {
+              color: #E1B5AB;
+              border-bottom: 0; }
+      body .page-home section nav.active .mobile-modal {
+        color: #E1B5AB; } }
