@@ -1,0 +1,124 @@
+body
+
+	background:
+		image: url(../img/background-t.png)
+		size: cover
+		attachment: fixed
+	&::before
+		content: ''
+		background:
+			color: $eucalytpus
+		top: 0
+		left: 0
+		right: 0
+		position: fixed
+		z-index: -9998
+		min-width: 100vw
+		min-height: 100vh
+
+	.background-image
+		position: fixed
+		z-index: -9997
+		top: 0
+		max-height: 20vh
+		height: 100%
+		opacity: 0.3
+	.page-home
+		display: block
+		min-width: 100vw
+		position: relative
+		margin: 0 auto
+		section
+			.intro
+				a
+					color: inherit
+					text-decoration: none
+					h1
+						font:
+							//family: $cinzel
+							family: $playfair
+							weight: 900
+						margin-bottom: 0
+						//letter-spacing: 0.25em
+						transition: all 0.3s ease-in-out
+						span
+							color: $coral
+							font-size: 125%
+							transition: all 0.3s ease-in-out
+					p
+						&:first-of-type
+							font:
+								weight: 900
+								size: 2em
+								variant: small-caps
+							letter-spacing: 0.125em
+							margin-bottom: 0
+					&:hover
+						h1
+							color: $coral
+							span
+								color: black
+
+				h2
+					margin-bottom: 0
+					font:
+						weight: 300
+				h3
+					margin-top: 0
+					font:
+						weight: 500
+			nav
+				ul
+					margin: 0
+					padding: 0
+					list-style-type: none
+					display: flex
+					justify-content: space-around
+					flex-flow: row wrap
+					li
+						a
+							font:
+								weight: bold
+								variant: small-caps
+							&.active
+								color: $eucalytpus
+								border-bottom: 3px solid $eucalytpus
+			article
+				display: grid
+				grid-template-columns: 1fr 1fr
+				grid-gap: 16px
+				max-width: 800px
+				margin: 0 auto
+				h3
+					grid-column: 1/-1
+				&#about
+					h3
+						&:first-of-type
+							grid-column: 1/-1
+							margin-bottom: 0
+							align-self: flex-end
+				&#travel
+					p
+						&:first-of-type
+							//grid-column: 1/-1
+					h5
+						margin-bottom: 0
+					h3
+						&:first-of-type
+							grid-column: 1/-1
+							margin-bottom: 0
+							align-self: flex-end
+					ul
+						margin: 0
+						padding: 0
+						list-style: none
+						h4
+							margin-bottom: 0.5em
+							line-height: 0.9
+							small
+								font-size: 13px
+
+				&#attractions
+
+				&#accomodations
+					visibility: visible
