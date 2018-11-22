@@ -629,6 +629,8 @@ body {
 @media (max-width: 416px) {
   body .page-home section:first-of-type {
     margin-top: 0px; }
+  body .page-home section:last-of-type {
+    margin-bottom: 0px; }
   body .page-home section .intro a h1 {
     width: 80%;
     margin: 0 auto;
