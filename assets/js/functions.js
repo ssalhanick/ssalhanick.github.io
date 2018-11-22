@@ -1,5 +1,16 @@
 $( document ).ready(function() {
 
-  // Get started!
+	function mobileNav(){
+			if (! $('nav').hasClass('active')) {
+				$('nav').addClass('active');
+			} else {
+				$('nav').removeClass('active');
+			}
+		}
+
+		$('.mobile-modal').click(mobileNav);
+
+
+
 
 });
