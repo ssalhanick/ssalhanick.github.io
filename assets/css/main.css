@@ -332,11 +332,11 @@ body {
   -webkit-tap-highlight-color: #FFF498; }
 
 a {
-  color: #FF7F50;
+  color: #E1B5AB;
   text-decoration: none;
   outline: 0; }
   a:hover, a:focus {
-    color: #ffcab6; }
+    color: #fcf7f6; }
 
 .gigantic, .huge, .large, .bigger, .big,
 h1, h2, h3, h4, h5, h6 {
@@ -562,7 +562,7 @@ body {
         margin-bottom: 0;
         transition: all 0.3s ease-in-out; }
         body .page-home section .intro a h1 span {
-          color: #FF7F50;
+          color: #E1B5AB;
           font-size: 125%;
           transition: all 0.3s ease-in-out; }
       body .page-home section .intro a p:first-of-type {
@@ -572,7 +572,7 @@ body {
         letter-spacing: 0.125em;
         margin-bottom: 0; }
       body .page-home section .intro a:hover h1 {
-        color: #FF7F50; }
+        color: #E1B5AB; }
         body .page-home section .intro a:hover h1 span {
           color: black; }
     body .page-home section .intro h2 {
@@ -677,7 +677,7 @@ body {
           body .page-home section nav.active ul li a {
             color: white; }
             body .page-home section nav.active ul li a.active {
-              color: #FF7F50;
+              color: #E1B5AB;
               border-bottom: 0; }
       body .page-home section nav.active .mobile-modal {
-        color: #FF7F50; } }
+        color: #E1B5AB; } }
