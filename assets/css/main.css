@@ -642,8 +642,8 @@ body {
       min-width: 50px;
       min-height: 50px;
       position: fixed;
-      top: 15px;
-      right: 15px;
+      top: 5px;
+      right: 5px;
       transform: rotate(90deg);
       color: #ACD5C1;
       font-size: 3em;
