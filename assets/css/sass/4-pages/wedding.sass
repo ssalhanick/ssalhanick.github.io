@@ -94,11 +94,17 @@ body
 				h3
 					grid-column: 1/-1
 				&#about
+					grid-template-columns: 1fr
 					h3
 						&:first-of-type
 							grid-column: 1/-1
 							margin-bottom: 0
 							align-self: flex-end
+					.slideshow
+						img
+							max-width: 450px
+							height: auto
+
 				&#travel
 					p
 						&:first-of-type
