@@ -1,0 +1,62 @@
+@media #{$tablet}
+	body
+		.page-home
+			section
+				&:first-of-type
+					margin-top: 0px
+				&:last-of-type
+					margin-bottom: 0px
+				.intro
+					a
+						h1
+							width: 80%
+							margin: 0 auto
+							line-height: 1.15
+				nav
+					height: 0
+					.mobile-modal
+						display: block
+						min-width: 50px
+						min-height: 50px
+						position: fixed
+						top: 5px
+						right: 5px
+						transform: rotate(90deg)
+						color: $eucalytpus
+						font-size: 3em
+						z-index: 999
+						cursor: pointer
+					ul
+						display: none
+					&.active
+						position: fixed
+						background-color: $eucalytpus
+						min-height: 100vh
+						top: 0
+						left: 0
+						max-width: 42vw
+						width: 100%
+						z-index: 999
+						ul
+							display: flex
+							flex-direction: column
+							justify-content: center
+							align-items: flex-end
+							height: 100vh
+							padding-right: 0.75em
+							li
+								padding: 25px 0
+								font-size: 1.55em
+								&:first-of-type
+									padding-top: 0
+								&:last-of-type
+									padding-bottom: 0
+								a
+									color: white
+									&.active
+										color: $coral
+										border-bottom: 0
+						// &::after
+						// 	content: 'X'
+						.mobile-modal
+							color: $coral
