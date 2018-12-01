@@ -946,6 +946,9 @@ body {
           color: #E1B5AB; }
     body .page-home section article {
       display: block; }
+      body .page-home section article#about .slideshow img {
+        height: auto;
+        width: 100%; }
       body .page-home section article#travel iframe {
         width: 100%; }
     body .page-home section#rsvp {
