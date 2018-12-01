@@ -922,7 +922,7 @@ body {
         left: 0;
         max-width: 42vw;
         width: 100%;
-        z-index: 999; }
+        z-index: 49; }
         body .page-home section nav.active ul {
           display: flex;
           flex-direction: column;
