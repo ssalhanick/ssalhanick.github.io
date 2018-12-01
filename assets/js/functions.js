@@ -1,13 +1,12 @@
 $( document ).ready(function() {
 
 	$('#about .slideshow').slick({
-     lazyLoad: 'ondemand',
-	  autoplay: true,
-     autoplaySpeed: 2000,
-     slidesToShow: 1,
-     adaptiveHeight: true,
-	  dots: true,
-     infinite: true
+     dots: true,
+  infinite: true,
+  speed: 300,
+  slidesToShow: 5,
+  centerMode: true,
+  variableWidth: true
    });
 
 	function mobileNav(){

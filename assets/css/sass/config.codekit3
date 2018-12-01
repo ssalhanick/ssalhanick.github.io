@@ -1088,6 +1088,32 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"/1-tools/slick-theme.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/1-tools/slick-theme.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/1-tools/slick.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/1-tools/slick.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"/2-basics/_body-element.sass": {
 		"aP": 0,
 		"bl": 0,
@@ -1265,7 +1291,7 @@
 		"ft": 2,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "/Users/scott/Desktop/-personal/Quinn/wedding/site/ssalhanick.github.io/assets/css/main.css",
+		"oAP": "/Users/scotttsalhanick/Sites/wedding/site/assets/css/main.css",
 		"oF": 6,
 		"oS": 0,
 		"uL": 1
