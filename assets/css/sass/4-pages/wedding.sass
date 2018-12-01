@@ -48,6 +48,7 @@ body
 							font-size: 125%
 							transition: all 0.3s ease-in-out
 					p
+						transition: all 0.3s ease-in-out
 						&:first-of-type
 							font:
 								weight: 900
@@ -57,9 +58,8 @@ body
 							margin-bottom: 0
 					&:hover
 						h1
-							color: $coral
-							span
-								color: black
+							~ p
+								color: $coral
 
 				h2
 					margin-bottom: 0
@@ -110,10 +110,19 @@ body
 							width: auto
 							height: 300px
 							padding: 0 1em
-							//&.slick-active
-								transform: scale(1.125)
+							opacity: 0
+							transition: all 0.5s ease-in-out
+							&.slick-center
+								opacity: 1
 						&.slick-initialized
 							visibility: visible
+							button
+								&.slick-prev,
+								&.slick-next
+									&::before
+										color: $eucalytpus
+										font-size: 32px
+
 
 				&#travel
 					p

@@ -1,22 +1,44 @@
-$( document ).ready(function() {
+$(document).ready(function() {
 
-	function mobileNav(){
-			if (! $('nav').hasClass('active')) {
-				$('nav').addClass('active');
-			} else {
-				$('nav').removeClass('active');
-			}
-		}
+   function mobileNav() {
+      if (!$('nav').hasClass('active')) {
+         $('nav').addClass('active');
+      } else {
+         $('nav').removeClass('active');
+      }
+   }
 
-		$('.mobile-modal').click(mobileNav);
+   $('.mobile-modal').click(mobileNav);
 
-	$('#about .slideshow').slick({
-     dots: true,
-  infinite: true,
-  speed: 300,
-  slidesToShow: 5,
-  centerMode: true,
-  variableWidth: true
+   $('#about .slideshow').slick({
+      lazyLoad: 'ondemand',
+      dots: false,
+      infinite: true,
+      speed: 300,
+      variableWidth: true,
+		adaptiveHeight: true,
+      centerMode: true,
+      centerPadding: '60px',
+      slidesToShow: 3,
+      responsive: [{
+            breakpoint: 768,
+            settings: {
+               arrows: false,
+               centerMode: true,
+               centerPadding: '40px',
+               slidesToShow: 3
+            }
+         },
+         {
+            breakpoint: 480,
+            settings: {
+               arrows: false,
+               centerMode: true,
+               centerPadding: '40px',
+               slidesToShow: 1
+            }
+         }
+      ]
    });
 
 

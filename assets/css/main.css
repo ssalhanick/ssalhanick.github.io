@@ -772,16 +772,16 @@ body {
           color: #E1B5AB;
           font-size: 125%;
           transition: all 0.3s ease-in-out; }
-      body .page-home section .intro a p:first-of-type {
-        font-weight: 900;
-        font-size: 2em;
-        font-variant: small-caps;
-        letter-spacing: 0.125em;
-        margin-bottom: 0; }
-      body .page-home section .intro a:hover h1 {
+      body .page-home section .intro a p {
+        transition: all 0.3s ease-in-out; }
+        body .page-home section .intro a p:first-of-type {
+          font-weight: 900;
+          font-size: 2em;
+          font-variant: small-caps;
+          letter-spacing: 0.125em;
+          margin-bottom: 0; }
+      body .page-home section .intro a:hover h1 ~ p {
         color: #E1B5AB; }
-        body .page-home section .intro a:hover h1 span {
-          color: black; }
     body .page-home section .intro h2 {
       margin-bottom: 0;
       font-weight: 300; }
@@ -824,9 +824,16 @@ body {
             max-width: 60vw;
             width: auto;
             height: 300px;
-            padding: 0 1em; }
+            padding: 0 1em;
+            opacity: 0;
+            transition: all 0.5s ease-in-out; }
+            body .page-home section article#about .slideshow img.slick-center {
+              opacity: 1; }
           body .page-home section article#about .slideshow.slick-initialized {
             visibility: visible; }
+            body .page-home section article#about .slideshow.slick-initialized button.slick-prev::before, body .page-home section article#about .slideshow.slick-initialized button.slick-next::before {
+              color: #ACD5C1;
+              font-size: 32px; }
       body .page-home section article#travel h5 {
         margin-bottom: 0; }
       body .page-home section article#travel h3:first-of-type {
