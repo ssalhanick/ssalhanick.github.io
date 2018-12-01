@@ -937,7 +937,7 @@ body {
           flex-direction: column;
           justify-content: center;
           align-items: flex-end;
-          height: 100vh;
+          height: 90vh;
           padding-right: 0.75em; }
           body .page-home section nav.active ul li {
             padding: 25px 0;
