@@ -733,7 +733,7 @@ body {
       margin-bottom: 0px; }
 
 body {
-  background-image: url(https://scottsalhanick.com/wedding/img/img/background-t.png);
+  background-image: url(https://scottsalhanick.com/wedding/img/background-t2.png);
   background-size: cover;
   background-attachment: fixed; }
   body::before {
@@ -834,12 +834,12 @@ body {
             body .page-home section article#about .slideshow.slick-initialized button.slick-prev::before, body .page-home section article#about .slideshow.slick-initialized button.slick-next::before {
               color: #ACD5C1;
               font-size: 32px; }
+      body .page-home section article#travel iframe {
+        width: 100%;
+        height: 400px;
+        grid-column: 1/-1; }
       body .page-home section article#travel h5 {
         margin-bottom: 0; }
-      body .page-home section article#travel h3:first-of-type {
-        grid-column: 1/-1;
-        margin-bottom: 0;
-        align-self: flex-end; }
       body .page-home section article#travel ul {
         margin: 0;
         padding: 0;
@@ -927,7 +927,7 @@ body {
         position: fixed;
         background-color: #ACD5C1;
         min-height: 100vh;
-        top: 0;
+        top: 50px;
         left: 0;
         max-width: 42vw;
         width: 100%;
@@ -937,13 +937,13 @@ body {
           flex-direction: column;
           justify-content: center;
           align-items: flex-end;
-          height: 90vh;
+          height: 100vh;
           padding-right: 0.75em; }
           body .page-home section nav.active ul li {
             padding: 25px 0;
             font-size: 1.15em; }
             body .page-home section nav.active ul li:first-of-type {
-              padding-top: 0; }
+              padding-top: 125px; }
             body .page-home section nav.active ul li:last-of-type {
               padding-bottom: 0; }
             body .page-home section nav.active ul li a {
