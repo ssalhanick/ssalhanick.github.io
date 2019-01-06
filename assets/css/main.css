@@ -522,10 +522,10 @@ body {
   -webkit-text-size-adjust: 100%; }
 
 ::selection {
-  background: #FFF498; }
+  background: #ACD5C1; }
 
 ::-moz-selection {
-  background: #FFF498; }
+  background: #ACD5C1; }
 
 img::selection {
   background: transparent; }
@@ -534,14 +534,14 @@ img::-moz-selection {
   background: transparent; }
 
 body {
-  -webkit-tap-highlight-color: #FFF498; }
+  -webkit-tap-highlight-color: #ACD5C1; }
 
 a {
   color: #E1B5AB;
   text-decoration: none;
   outline: 0; }
   a:hover, a:focus {
-    color: #fcf7f6; }
+    color: #414141; }
 
 .gigantic, .huge, .large, .bigger, .big,
 h1, h2, h3, h4, h5, h6 {
