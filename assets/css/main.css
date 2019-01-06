@@ -953,10 +953,8 @@ body {
           height: 100vh;
           padding-right: 0.75em; }
           body .page-home section nav.active ul li {
-            padding: 25px 0;
+            padding: 10px 0;
             font-size: 1.15em; }
-            body .page-home section nav.active ul li:first-of-type {
-              padding-top: 125px; }
             body .page-home section nav.active ul li:last-of-type {
               padding-bottom: 0; }
             body .page-home section nav.active ul li a {
