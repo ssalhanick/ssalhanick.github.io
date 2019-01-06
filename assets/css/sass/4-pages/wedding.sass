@@ -90,8 +90,24 @@ body
 				grid-gap: 16px
 				max-width: 800px
 				margin: 0 auto
-				h3
+				h3,
+				.lead,
+				hr
 					grid-column: 1/-1
+
+				.btn
+					padding: 0.25em 0.55em
+					background-color: $eucalytpus
+					color: $dirk
+					text-transform: lowercase
+					border: 2px solid $eucalytpus
+					font:
+						variant: small-caps
+						weight: bold
+						size: 1.15em
+					&:hover
+						background-color: transparent
+
 				&#about
 					display: block
 					grid-template-columns: 1fr
@@ -152,7 +168,9 @@ body
 				&#attractions
 
 				&#accomodations
-					visibility: visible
+					.hotel
+						h4
+							margin-bottom: 0
 
 @import '../3-modules/phone'
 @import '../3-modules/tablet'

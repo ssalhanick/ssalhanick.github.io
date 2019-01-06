@@ -807,8 +807,21 @@ body {
       grid-gap: 16px;
       max-width: 800px;
       margin: 0 auto; }
-      body .page-home section article h3 {
+      body .page-home section article h3,
+      body .page-home section article .lead,
+      body .page-home section article hr {
         grid-column: 1/-1; }
+      body .page-home section article .btn {
+        padding: 0.25em 0.55em;
+        background-color: #ACD5C1;
+        color: #414141;
+        text-transform: lowercase;
+        border: 2px solid #ACD5C1;
+        font-variant: small-caps;
+        font-weight: bold;
+        font-size: 1.15em; }
+        body .page-home section article .btn:hover {
+          background-color: transparent; }
       body .page-home section article#about {
         display: block;
         grid-template-columns: 1fr; }
@@ -849,8 +862,8 @@ body {
           line-height: 0.9; }
           body .page-home section article#travel ul h4 small {
             font-size: 13px; }
-      body .page-home section article#accomodations {
-        visibility: visible; }
+      body .page-home section article#accomodations .hotel h4 {
+        margin-bottom: 0; }
 
 @media (max-width: 416px) {
   body .page-home {
