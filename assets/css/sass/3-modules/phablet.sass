@@ -1,42 +1,96 @@
 @media #{$phablet}
 	body
 		.page-home
+			max-width: 100vw
+			.mobile-modal
+				display: block
+				min-width: 50px
+				min-height: 50px
+				position: fixed
+				top: 5px
+				right: 5px
+				transform: rotate(90deg)
+				color: $eucalytpus
+				font-size: 3em
+				z-index: 999
+				cursor: pointer
+				&.active
+					color: $coral
 			section
 				&:first-of-type
 					margin-top: 0px
 				&:last-of-type
 					margin-bottom: 0px
+
+				&::before
+					content: ''
+					width: 100vw
+					background-color: white
+					box-shadow: 0px 0px 14px 1px rgba(0,0,0,0.25)
+					height: 75px
+					display: block
+					z-index: 50
+					position: fixed
+					left: 0
+					top: 0
 				.intro
 					a
 						h1
 							width: 80%
 							margin: 0 auto
 							line-height: 1.15
+
+							position: absolute
+							top: -500px
+							&::after
+								content: ''
+								background:
+									image: url(https://scottsalhanick.com/wedding/img/logo.svg)
+									repeat: no-repeat
+								width: 25px
+								height: 25px
+								transform: scale(1.125)
+								position: fixed
+								top: 27px
+								left: 10px
+								z-index: 51
+						p
+							&:first-of-type
+								text-align: left
+								position: fixed
+
+								z-index: 52
+								font-size: 16px
+								top: 27px
+						> &:first-of-type
+							display: block
+							z-index: 98
+							background-color: white
+							position: fixed
+							top: 0
+							height: 75px
+							width: 100vw
+					h2
+						margin-top: 1.5em
+					h3
+						margin-bottom: 0.5em
+
 				nav
 					height: 0
-					.mobile-modal
-						display: block
-						min-width: 50px
-						min-height: 50px
-						position: fixed
-						top: 5px
-						right: 5px
-						transform: rotate(90deg)
-						color: $eucalytpus
-						font-size: 3em
-						z-index: 999
-						cursor: pointer
+					left: -42vw
+					transition: left 0.3s ease-in-out
+
 					ul
 						display: none
 					&.active
 						position: fixed
 						background-color: $eucalytpus
 						min-height: 100vh
-						top: 0
+						top: 50px
 						left: 0
 						max-width: 42vw
 						width: 100%
-						z-index: 999
+						z-index: 49
 						ul
 							display: flex
 							flex-direction: column
@@ -45,10 +99,10 @@
 							height: 100vh
 							padding-right: 0.75em
 							li
-								padding: 25px 0
-								font-size: 1.4em
-								&:first-of-type
-									padding-top: 0
+								padding: 10px 0
+								font-size: 1.15em
+								//&:first-of-type
+									padding-top: 125px
 								&:last-of-type
 									padding-bottom: 0
 								a
@@ -60,3 +114,19 @@
 						// 	content: 'X'
 						.mobile-modal
 							color: $coral
+
+				article
+					display: block
+					&#about
+						.slideshow
+							padding-top: 1em
+							img
+								height: auto
+								width: 100%
+
+					&#travel
+						iframe
+							width: 100%
+
+				&#rsvp
+					padding: 40px 0
