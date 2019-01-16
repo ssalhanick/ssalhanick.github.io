@@ -939,7 +939,8 @@ body {
     body .page-home section .intro h3 {
       margin-bottom: 0.5em; }
     body .page-home section nav {
-      height: 0; }
+      height: 0;
+      transition: all 0.3s ease-in-out; }
       body .page-home section nav ul {
         display: none; }
       body .page-home section nav.active {
