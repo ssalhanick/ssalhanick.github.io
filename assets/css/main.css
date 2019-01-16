@@ -824,6 +824,8 @@ body {
           background-color: transparent; }
       body .page-home section article #RSVPifyIFrame {
         height: 100%; }
+        body .page-home section article #RSVPifyIFrame .step1 {
+          background-color: #ACD5C1 !important; }
       body .page-home section article#about {
         display: block;
         grid-template-columns: 1fr; }
@@ -940,7 +942,8 @@ body {
       margin-bottom: 0.5em; }
     body .page-home section nav {
       height: 0;
-      transition: all 0.3s ease-in-out; }
+      left: -42vw;
+      transition: left 0.3s ease-in-out; }
       body .page-home section nav ul {
         display: none; }
       body .page-home section nav.active {

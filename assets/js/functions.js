@@ -10,13 +10,14 @@ $(document).ready(function() {
 
    $('.mobile-modal').click(mobileNav);
 
+
    $('#about .slideshow').slick({
       lazyLoad: 'ondemand',
       dots: false,
       infinite: true,
       speed: 300,
       variableWidth: true,
-		adaptiveHeight: true,
+      adaptiveHeight: true,
       centerMode: true,
       centerPadding: '60px',
       slidesToShow: 3,
@@ -43,3 +44,18 @@ $(document).ready(function() {
 
 
 });
+//
+// const $menu = $('nav');
+//
+// $(document).mouseup(function(e) {
+//    if (!$menu.is(e.target) // if the target of the click isn't the container...
+//       &&
+//       $menu.has(e.target).length === 0) // ... nor a descendant of the container
+//    {
+//       $menu.removeClass('active');
+//    }
+// });
+//
+// $('.mobile-modal').on('click', () => {
+//    $('nav').toggleClass('active');
+// });
