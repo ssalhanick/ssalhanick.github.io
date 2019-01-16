@@ -822,6 +822,8 @@ body {
         font-size: 1.15em; }
         body .page-home section article .btn:hover {
           background-color: transparent; }
+      body .page-home section article #RSVPifyIFrame {
+        height: 100%; }
       body .page-home section article#about {
         display: block;
         grid-template-columns: 1fr; }
