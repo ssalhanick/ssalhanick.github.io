@@ -879,7 +879,9 @@ body {
     overflow-x: hidden;
     width: 100%; }
     body .page-home {
-      max-width: 100vw; }
+      max-width: 100vw;
+      overflow-x: hidden;
+      width: 100%; }
       body .page-home .mobile-modal {
         display: block;
         min-width: 50px;
