@@ -795,19 +795,21 @@ body {
     body .page-home section .intro h3 {
       margin-top: 18px;
       font-weight: 500; }
-    body .page-home section nav ul {
-      margin: 0;
-      padding: 0;
-      list-style-type: none;
-      display: flex;
-      justify-content: space-around;
-      flex-flow: row wrap; }
-      body .page-home section nav ul li a {
-        font-weight: bold;
-        font-variant: small-caps; }
-        body .page-home section nav ul li a.active {
-          color: #ACD5C1;
-          border-bottom: 3px solid #ACD5C1; }
+    body .page-home section nav {
+      margin-bottom: 1em; }
+      body .page-home section nav ul {
+        margin: 0;
+        padding: 0;
+        list-style-type: none;
+        display: flex;
+        justify-content: space-around;
+        flex-flow: row wrap; }
+        body .page-home section nav ul li a {
+          font-weight: bold;
+          font-variant: small-caps; }
+          body .page-home section nav ul li a.active {
+            color: #ACD5C1;
+            border-bottom: 3px solid #ACD5C1; }
     body .page-home section article {
       display: grid;
       grid-template-columns: 1fr 1fr;
