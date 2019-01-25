@@ -189,6 +189,25 @@ body
 						h4
 							margin-bottom: 0
 
+				&#venue
+					ol
+						align-self: center
+						li
+							text-align: left
+							&:last-of-type
+								list-style-type: none
+								margin-left: -20px
+								&::before
+									content: ''
+									background:
+										image: url(https://scottsalhanick.com/wedding/img/star.svg)
+										repeat: no-repeat
+									width: 20px
+									height: 20px
+									display: inline-block
+									position: relative
+									left: -5px
+
 @import '../3-modules/phone'
 @import '../3-modules/tablet'
 @import '../3-modules/phablet'
