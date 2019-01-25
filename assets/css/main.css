@@ -539,7 +539,8 @@ body {
 a {
   color: #E1B5AB;
   text-decoration: none;
-  outline: 0; }
+  outline: 0;
+  font-weight: bold; }
   a:hover, a:focus {
     color: #414141; }
 
@@ -786,8 +787,13 @@ body {
     body .page-home section .intro h2 {
       margin-bottom: 0;
       font-weight: 300; }
+    body .page-home section .intro small {
+      text-transform: lowercase;
+      text-transform: uppercase;
+      font-weight: 500;
+      font-size: 16px; }
     body .page-home section .intro h3 {
-      margin-top: 0;
+      margin-top: 18px;
       font-weight: 500; }
     body .page-home section nav ul {
       margin: 0;
@@ -1000,8 +1006,13 @@ body {
               width: 100%; }
           body .page-home section article#travel iframe {
             width: 100%; }
+          body .page-home section article#accomodations {
+            margin-top: 10px; }
         body .page-home section#rsvp {
-          padding: 40px 0; } }
+          padding: 40px 0; }
+    body.sub .intro h2,
+    body.sub .intro h3 {
+      display: none; } }
 
 @media (min-width: 786px) and (max-width: 1096px) {
   body .page-home section:first-of-type {
