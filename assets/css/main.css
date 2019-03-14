@@ -806,7 +806,8 @@ body {
         flex-flow: row wrap; }
         body .page-home section nav ul li a {
           font-weight: bold;
-          font-variant: small-caps; }
+          font-variant: small-caps;
+          font-size: 1.15em; }
           body .page-home section nav ul li a.active {
             color: #ACD5C1;
             border-bottom: 3px solid #ACD5C1; }
