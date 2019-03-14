@@ -860,6 +860,9 @@ body {
             body .page-home section article#about .slideshow.slick-initialized button.slick-prev::before, body .page-home section article#about .slideshow.slick-initialized button.slick-next::before {
               color: #ACD5C1;
               font-size: 32px; }
+      body .page-home section article#travel div#plane {
+        display: grid;
+        grid-template-columns: 1fr 1fr; }
       body .page-home section article#travel div#parking {
         grid-column: 1/-1; }
       body .page-home section article#travel iframe {
