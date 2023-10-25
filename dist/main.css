@@ -1,0 +1,220 @@
+.videoHolder {
+  overflow: hidden;
+  padding-bottom: 56.25%;
+  position: relative;
+  height: 0;
+}
+.videoHolder iframe {
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+
+[class^=card-columns] .card a {
+  color: #0d6efd;
+  text-decoration-color: #0d6efd;
+}
+[class^=card-columns][class*="3"] {
+  -webkit-column-count: 3;
+  -moz-column-count: 3;
+  -o-column-count: 3;
+  -o-column-count: 3;
+  -webkit-column-gap: 16px;
+  -moz-column-gap: 16px;
+  -o-column-gap: 16px;
+  column-gap: 16px;
+}
+[class^=card-columns][class*="4"] {
+  -webkit-column-count: 4;
+  -moz-column-count: 4;
+  -o-column-count: 4;
+  -o-column-count: 4;
+  -webkit-column-gap: 16px;
+  -moz-column-gap: 16px;
+  -o-column-gap: 16px;
+  column-gap: 16px;
+}
+@media (max-width: 767.98px) {
+  [class^=card-columns][class*="3"], [class^=card-columns][class*="4"] {
+    -webkit-column-count: 2;
+    -moz-column-count: 2;
+    -o-column-count: 2;
+    -o-column-count: 2;
+    -webkit-column-gap: 16px;
+    -moz-column-gap: 16px;
+    -o-column-gap: 16px;
+    column-gap: 16px;
+  }
+}
+@media (max-width: 575.98px) {
+  [class^=card-columns][class*="3"], [class^=card-columns][class*="4"] {
+    -webkit-column-count: 1;
+    -moz-column-count: 1;
+    -o-column-count: 1;
+    -o-column-count: 1;
+    -webkit-column-gap: 0px;
+    -moz-column-gap: 0px;
+    -o-column-gap: 0px;
+    column-gap: 0px;
+  }
+}
+
+ul[class^=columns],
+ol[class^=columns] {
+  padding-left: 15px;
+}
+ul[class^=columns][class*="2"],
+ol[class^=columns][class*="2"] {
+  -webkit-column-count: 2;
+  -moz-column-count: 2;
+  -o-column-count: 2;
+  -o-column-count: 2;
+  -webkit-column-gap: 21px;
+  -moz-column-gap: 21px;
+  -o-column-gap: 21px;
+  column-gap: 21px;
+}
+ul[class^=columns][class*="3"],
+ol[class^=columns][class*="3"] {
+  -webkit-column-count: 3;
+  -moz-column-count: 3;
+  -o-column-count: 3;
+  -o-column-count: 3;
+  -webkit-column-gap: 21px;
+  -moz-column-gap: 21px;
+  -o-column-gap: 21px;
+  column-gap: 21px;
+}
+ul[class^=columns][class*="4"],
+ol[class^=columns][class*="4"] {
+  -webkit-column-count: 4;
+  -moz-column-count: 4;
+  -o-column-count: 4;
+  -o-column-count: 4;
+  -webkit-column-gap: 21px;
+  -moz-column-gap: 21px;
+  -o-column-gap: 21px;
+  column-gap: 21px;
+}
+@media (max-width: 767.98px) {
+  ul[class^=columns][class*="3"], ul[class^=columns][class*="4"],
+  ol[class^=columns][class*="3"],
+  ol[class^=columns][class*="4"] {
+    -webkit-column-count: 2;
+    -moz-column-count: 2;
+    -o-column-count: 2;
+    -o-column-count: 2;
+    -webkit-column-gap: 21px;
+    -moz-column-gap: 21px;
+    -o-column-gap: 21px;
+    column-gap: 21px;
+  }
+}
+@media (max-width: 575.98px) {
+  ul[class^=columns],
+  ol[class^=columns] {
+    padding-left: 30px;
+  }
+  ul[class^=columns][class*="2"], ul[class^=columns][class*="3"], ul[class^=columns][class*="4"],
+  ol[class^=columns][class*="2"],
+  ol[class^=columns][class*="3"],
+  ol[class^=columns][class*="4"] {
+    -webkit-column-count: 1;
+    -moz-column-count: 1;
+    -o-column-count: 1;
+    -o-column-count: 1;
+    -webkit-column-gap: 0;
+    -moz-column-gap: 0;
+    -o-column-gap: 0;
+    column-gap: 0;
+  }
+}
+
+.mobile-hide {
+  display: inline;
+}
+@media (max-width: 767.98px) {
+  .mobile-hide {
+    display: none;
+  }
+}
+
+.mobile-show {
+  display: none;
+}
+@media (max-width: 767.98px) {
+  .mobile-show {
+    display: inline;
+  }
+}
+
+body {
+  background-image: url("./img/stone-pond-farm.jpg");
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  flex-direction: column-reverse;
+  color: white;
+  z-index: 1;
+  font-size: 1.4rem;
+}
+body::after {
+  content: "";
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(0deg, black, rgba(0, 0, 0, 0));
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 0;
+}
+body h1 {
+  font-family: "Graduate", serif;
+}
+body div.container {
+  margin: 0 auto;
+  max-height: 65vh;
+  z-index: 1;
+  text-align: center;
+}
+body div.container a.button {
+  display: inline-block;
+  padding: 1rem 1.25rem;
+  max-width: 10rem;
+  max-height: 3rem;
+  background: indianred;
+  border-radius: 5px;
+  border: 1px solid white;
+  margin-top: 1rem;
+  color: white;
+  font-family: "Graduate", serif;
+}
+body div.container a.button:hover {
+  background: white;
+  border-color: indianred;
+  color: indianred;
+}
+@media (min-width: 768px) {
+  body div.container {
+    margin-bottom: 8rem;
+    max-width: 900px;
+  }
+}
+@media (max-width: 767.98px) {
+  body {
+    background-position: center right;
+  }
+  body div.container {
+    margin-bottom: 5rem;
+    max-width: 75vw;
+  }
+}
+/*# sourceMappingURL=main.css.map */

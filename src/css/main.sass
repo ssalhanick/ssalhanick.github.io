@@ -1,0 +1,58 @@
+@import utilities/utilities
+    
+body
+    background:
+        image: url('./img/stone-pond-farm.jpg')
+        position: center center
+        size: cover
+        repeat: no-repeat
+    height: 100vh
+    overflow: hidden
+    position: relative
+    display: flex
+    flex-direction: column-reverse
+    color: white
+    z-index: 1
+    font-size: 1.4rem
+    &::after
+        content: ''
+        position: absolute
+        width: 100vw
+        height: 100vh
+        background: linear-gradient(0deg, black, transparentize(black, 1))
+        bottom: 0
+        top: 0
+        left: 0
+        right: 0
+        z-index: 0
+    h1
+        font-family: 'Graduate', serif
+    div.container
+        margin: 0 auto
+        max-height: 65vh
+        z-index: 1
+        text-align: center
+        a.button
+            display: inline-block
+            padding: 1rem 1.25rem
+            max-width: 10rem
+            max-height: 3rem
+            background: indianred
+            border-radius: 5px
+            border: 1px solid white
+            margin-top: 1rem
+            color: white
+            font-family: 'Graduate', serif
+            &:hover
+                background: white
+                border-color: indianred
+                color: indianred
+    @include media-breakpoint-up(md)
+        div.container
+            margin-bottom: 8rem
+            max-width: 900px
+    @include media-breakpoint-down(md)
+        background-position: center right
+        div.container
+            margin-bottom: 5rem
+            max-width: 75vw
