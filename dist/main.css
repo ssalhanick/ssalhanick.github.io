@@ -156,7 +156,7 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   height: 100vh;
-  overflow: hidden;
+  overflow-x: hidden;
   position: relative;
   display: flex;
   flex-direction: column-reverse;
